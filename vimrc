@@ -93,6 +93,7 @@ Bundle 'Valloric/YouCompleteMe'
 Bundle 'vim-scripts/L9'
 Bundle 'scrooloose/syntastic'
 Bundle 'vim-scripts/FuzzyFinder'
+Bundle 'kien/ctrlp.vim'
 
 " vim-scripts repos
 " non github repos
