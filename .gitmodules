@@ -1,3 +1,9 @@
 [submodule "bundle/vundle"]
 	path = bundle/vundle
 	url = git://github.com/gmarik/vundle.git
+[submodule "bundle/vim-github-colorscheme"]
+	path = bundle/vim-github-colorscheme
+	url = git://github.com/endel/vim-github-colorscheme.git
+[submodule "bundle/guicolorscheme.vim"]
+	path = bundle/guicolorscheme.vim
+	url = git://github.com/vim-scripts/guicolorscheme.vim.git
