@@ -87,18 +87,18 @@ Bundle 'gmarik/vundle'
 "Bundle 'Lokaltog/vim-easymotion'
 "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 "Bundle 'tpope/vim-rails.git'
-"Bundle 'arnognulf/monolicous.vim'
 Bundle 'vim-scripts/guicolorscheme.vim'
-
-"colorscheme monolicous
 Bundle 'endel/vim-github-colorscheme'
-" colorscheme github
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'vim-scripts/L9'
+Bundle 'scrooloose/syntastic'
+Bundle 'vim-scripts/FuzzyFinder'
+
 " vim-scripts repos
-"Bundle 'L9'
-"Bundle 'FuzzyFinder'
 " non github repos
 "Bundle 'git://git.wincent.com/command-t.git'
 " ...
+
 
 filetype plugin indent on     " required!
 "
