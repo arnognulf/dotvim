@@ -4,7 +4,6 @@ map <F4> :set list! list?<CR>
 set foldmethod=syntax
 set nocompatible
 set autoindent
-set smartindent
 set ignorecase
 set smartcase
 set showmatch
@@ -23,7 +22,7 @@ nmap <SPACE> <SPACE>:noh<CR>
 imap jj <ESC>
 imap <F1> <ESC>
 vmap <F1> <ESC>
-set softtabstop=4 shiftwidth=4 expandtab
+"set softtabstop=4 shiftwidth=4 expandtab
 "hi Tab gui=underline guifg=blue ctermbg=blue term=reverse
 
 if has("autocmd")
@@ -112,9 +111,9 @@ GuiColorScheme github
 " cursorline: vim = false, vs 2010 = false, vs 2012 = true
 " expandtab: vim = false, vs = (C# false) (C++ true)
 " number: vim = false, vs = false
-set tabstop 4
-set shiftwidth 4
-set cursorline true
-set expandtab true
-set number true
+set tabstop=4
+set shiftwidth=4
+" set cursorline
+set expandtab
+set number
 
