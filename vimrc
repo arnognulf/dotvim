@@ -1,14 +1,3 @@
-map 1 :tabn 1<CR>
-map 2 :tabn 2<CR>
-map 3 :tabn 3<CR>
-map 4 :tabn 4<CR>
-map 5 :tabn 5<CR>
-map 6 :tabn 6<CR>
-map 7 :tabn 7<CR>
-map 8 :tabn 8<CR>
-map 9 :tabn 9<CR>
-map 0 :tabn 10<CR>
-
 set listchars=tab:>-,eol:$,trail:.,extends:#
 " toggle show newlines, blanks and tabs
 map <F4> :set list! list?<CR>
@@ -89,7 +78,7 @@ Bundle 'gmarik/vundle'
 "Bundle 'tpope/vim-rails.git'
 Bundle 'vim-scripts/guicolorscheme.vim'
 Bundle 'endel/vim-github-colorscheme'
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 Bundle 'vim-scripts/L9'
 Bundle 'scrooloose/syntastic'
 Bundle 'vim-scripts/FuzzyFinder'
