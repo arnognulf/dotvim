@@ -106,3 +106,15 @@ syntax on
 runtime! plugin/guicolorscheme.vim
 GuiColorScheme github
 
+" VsVim saneness
+" tabstop: vim = 8, vs = 4
+" shiftwidth: vim = 8, vs = 4
+" cursorline: vim = false, vs 2010 = false, vs 2012 = true
+" expandtab: vim = false, vs = (C# false) (C++ true)
+" number: vim = false, vs = false
+set tabstop 4
+set shiftwidth 4
+set cursorline true
+set expandtab true
+set number true
+
